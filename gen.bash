@@ -24,10 +24,10 @@ if [ ! -z "$user" ]; then
 fi
 
 echo "$password
-$userline" | pbcopy
+$userline" | xclip -i -selection clipboard
 
 pass edit $passname
 
-echo -n $password | pbcopy
+echo -n $password | xclip -i -selection clipboard
 
-$HOME/bin/sync
+$HOME/bin/syncup
