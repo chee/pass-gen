@@ -30,4 +30,5 @@ pass edit $passname
 
 echo -n $password | xclip -i -selection clipboard
 
-$HOME/bin/syncup
+pass git pull
+pass git push
