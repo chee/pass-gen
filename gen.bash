@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 passname="$1"
-user="${2-chee@snoot.club}"
+user="${2-yay@chee.party}"
 
 cry () {
 	echo "$0 <pass-name> [user-name]"
